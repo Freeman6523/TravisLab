@@ -31,3 +31,4 @@ public class SimpleCalculatorTest {
         assertEquals(calc.div(8, 2), 4);
     }
 }
+
