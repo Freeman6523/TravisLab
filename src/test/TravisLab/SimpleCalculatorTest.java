@@ -1,11 +1,9 @@
-package test;
+package TravisLab;
 
 import java.util.*;
 
 import static org.junit.Assert.*;
 import org.junit.*;
-
-import TravisLab.SimpleCalculator;
 
 public class SimpleCalculatorTest {
     @Test
@@ -29,6 +27,18 @@ public class SimpleCalculatorTest {
     public void testDiv() {
         SimpleCalculator calc = new SimpleCalculator();
         assertEquals(calc.div(8, 2), 4);
+    }
+    
+    @Test 
+    public void testPower() {
+    	SimpleCalculator calc = new SimpleCalculator();
+    	assertEquals(calc.pow(2,2),4);
+    }
+    
+    @Test 
+    public void testAbsolute() {
+    	SimpleCalculator calc = new SimpleCalculator();
+    	assertEquals(calc.abs(-1),1);
     }
 }
 
