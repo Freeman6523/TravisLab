@@ -1,8 +1,10 @@
-package TravisLab;
+package test;
 
 import java.util.*;
 import static org.junit.Assert.*;
 import org.junit.*;
+
+import TravisLab.SimpleCalculator;
 public class SimpleCalculatorTest {
 @Test
 public void testAdd() {
